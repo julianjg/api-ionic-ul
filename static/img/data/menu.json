@@ -1,0 +1,47 @@
+[
+    {
+    "icon": "american-football",
+    "name": "Panaderias",
+    "redirectTo": "/panaderias"
+  },
+    {
+    "icon": "american-football",
+    "name": "Supermercados",
+    "redirectTo": "/supermercados"
+  },
+  {
+    "icon": "cafe-outline",
+    "name": "Restaurantes",
+    "redirectTo": "/restaurantes"
+  },
+  {
+    "icon": "beaker",
+    "name": "Comidas Rapidas-Heladerias",
+    "redirectTo": "/comidas-rapidas"
+  },
+  {
+    "icon": "radio-button-on",
+    "name": "Droguerias",
+    "redirectTo": "/droguerias"
+  },
+  {
+    "icon": "card",
+    "name": "Domicilios",
+    "redirectTo": "/domicilios"
+  },
+  {
+    "icon": "checkmark-circle-outline",
+    "name": "Papelerias",
+    "redirectTo": "/papelerias"
+  },
+  {
+    "icon": "calendar",
+    "name": "Pagos - Servicios",
+    "redirectTo": "/pagos-servicios"
+  },
+  {
+    "icon": "car",
+    "name": "Servicios a Domicilio",
+    "redirectTo": "/card"
+  }
+]
