@@ -88,23 +88,23 @@ WSGI_APPLICATION = 'apiionic.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
-
 #DATABASES = {
  #   'default': {
-  #      'ENGINE': 'django.db.backends.postgresql_psycopg2',
-   #     'NAME': 'api_ionic',
-     #   'USER': 'postgres',
-    #    'PASSWORD': '821120jg',
-   #     'HOST': 'localhost',
-  #      'PORT': '',
- #   }
+  #      'ENGINE': 'django.db.backends.sqlite3',
+   #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    #}
 #}
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd4bnub3kge5jgj',
+        'USER': 'rpoarfkciofybl',
+        'PASSWORD': '5e4569ca6be60a655536cc2f0231e9f9d5070864a595fc314b69b3e7c3bb7f5d',
+        'HOST': 'ec2-34-198-243-120.compute-1.amazonaws.com',
+        'PORT': '5432',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
