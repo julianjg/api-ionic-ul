@@ -55,14 +55,20 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ORIGIN_ALLOW_ALL = True # If this is used then `CORS_ORIGIN_WHITELIST` will not have any effect
+CORS_ORIGIN_ALLOW_ALL = False # If this is used then `CORS_ORIGIN_WHITELIST` will not have any effect
 #CORS_ALLOW_CREDENTIALS = True
-#CORS_ORIGIN_WHITELIST = [
-  #  '*',
-#] # If this is used, then not need to use `CORS_ORIGIN_ALLOW_ALL = True`
+CORS_ORIGIN_WHITELIST = ['*',] # If this is used, then not need to use `CORS_ORIGIN_ALLOW_ALL = True`
 #CORS_ORIGIN_REGEX_WHITELIST = [
   # '*',
 #]
+CORS_ALLOW_METHODS  = [
+     'DELETE' ,
+     'GET' ,
+     'OPTIONS' ,
+     'PATCH' ,
+     'POST' ,
+     'PUT' ,
+]
 
 ROOT_URLCONF = 'apiionic.urls'
 
